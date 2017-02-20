@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://rocandtrees.github.io/pxroc
+  repository: https://github.com/RocAndTrees/pxroc.git
   branch: master
