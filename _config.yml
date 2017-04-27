@@ -1,0 +1,37 @@
+# Site settings
+title: 鲸吞
+url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: cjdesyue@126.com
+author: 鲸吞
+avatar: "http://img5.imgtn.bdimg.com/it/u=1298585784,2010873515&fm=23&gp=0.jpg"
+profile: 蹒跚前行.
+#twitter_username: twitter_username
+#github_username:  github_username
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
